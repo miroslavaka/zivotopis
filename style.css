@@ -38,20 +38,27 @@ h2 {
     padding: 0 33%;
 }
 
+.kontakt a {
+    color: rgb(70, 70, 70);
+}
+
+.kontakt a:hover {
+    color: rgb(77, 177, 178);
+}
+
+.vzdelanie h2,
 .skusenosti h2 {
     border-bottom: 2px solid rgb(77, 177, 178);
 }
 
+.vzdelanie p,
 .skusenosti p {
     font-family: 'Lora', serif;
 }
 
-.skusenosti ul li {
-    list-style-type: none;
-}
-
-.vzdelanie h2 {
-    border-bottom: 2px solid rgb(77, 177, 178);
+.skusenosti ul li,
+.vzdelanie ul li {
+    list-style-type: '- ';
 }
 
 .zrucnosti h2 {
@@ -64,6 +71,22 @@ h2 {
 
 .zrucnosti-technicke-osobne {
     display: flex;
+}
+
+.zrucnosti .technicke p,
+.zrucnosti .osobne p,
+.zrucnosti .jazyky span,
+.zrucnosti .zaluby span,
+.zrucnosti .projekty span {
+    font-family: 'Lora', serif;
+}
+
+.zrucnosti .projekty a {
+    color: rgb(70, 70, 70);
+}
+
+.zrucnosti .projekty a:hover {
+    color: rgb(77, 177, 178);
 }
 
 .paticka {
