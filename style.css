@@ -1,3 +1,74 @@
-h1 {
-    color: red;
+/*#faebd7, rgb(70, 70, 70) - background hlavicka & paticka*/
+
+
+/*#b38b6d, rgb(77, 177, 178); - h1, h2*/
+
+body {
+    line-height: 1.5;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1,
+h2 {
+    color: rgb(77, 177, 178);
+}
+
+.hlavicka {
+    background-color: rgb(70, 70, 70);
+    /* padding: 30px 0 0 0;*/
+    padding: 30px 33% 0 33%;
+    margin-left: auto;
+    overflow: auto;
+}
+
+.moje-foto {
+    width: 150px;
+    border-radius: 15px;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.kontakt,
+.vzdelanie,
+.skusenosti,
+.zrucnosti {
+    text-align: left;
+    margin: auto;
+    padding: 0 33%;
+}
+
+.skusenosti h2 {
+    border-bottom: 2px solid rgb(77, 177, 178);
+}
+
+.skusenosti p {
+    font-family: 'Lora', serif;
+}
+
+.skusenosti ul li {
+    list-style-type: none;
+}
+
+.vzdelanie h2 {
+    border-bottom: 2px solid rgb(77, 177, 178);
+}
+
+.zrucnosti h2 {
+    border-bottom: 2px solid rgb(77, 177, 178);
+}
+
+.zrucnosti .zaluby {
+    border-top: 2px solid rgb(77, 177, 178);
+}
+
+.zrucnosti-technicke-osobne {
+    display: flex;
+}
+
+.paticka {
+    background-color: rgb(70, 70, 70);
+    color: rgb(77, 177, 178);
+    text-align: center;
+    padding: 10px 0;
 }
